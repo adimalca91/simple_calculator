@@ -1,9 +1,9 @@
-const $lis = document.querySelectorAll("ul li")
+const $lis = document.querySelectorAll("ul button")
 
 $lis.forEach((node) => {
-    node.addEventListener('mousedown', function(event) {
-        const value = node.innerText.trim()              //In case there are extra spaces there then trim will take it out for us.
-        const $result = document.querySelector(".result")    //The $ sign means that we are grabbing something from the document object model.
+    node.addEventListener('click', function(event) {
+        const value = node.innerText.trim()                 //In case there are extra spaces there then trim will take it out for us.
+        const $result = document.querySelector(".result")  //The $ sign means that we are grabbing something from the document object model.
         const resultText = $result.innerText.trim()
 
         if(resultText == '0' || resultText == 'undefined' || resultText == 'Infinity') {

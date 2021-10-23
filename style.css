@@ -41,7 +41,7 @@ ul {
     padding: 0;
     margin: 0;
 }
-ul li {
+ul button {
     list-style: none;
     background: #4e4e4e;
     padding: 10px;
@@ -55,16 +55,16 @@ ul li {
     box-shadow: 0 5px 0 #a5a5a5, 0 2px 5px rgba(0, 0, 0, 0.75);
     font-family: 'Share', cursive;
 }
-ul li:active {              /* when you are clicking (pressing) and holding it (the button) it's going to do the following: */
+ul button:active {              /* when you are clicking (pressing) and holding it (the button) it's going to do the following: */
     position: relative;
     top: 5px;               /* bump it down bt 5px */
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
 }
-ul li:nth-child(16) {      /* Targeting the '=' button! */
+ul button:nth-child(16) {      /* Targeting the '=' button! */
     height: 75px;
     line-height: 75px;
 }
-ul li:last-child {
+ul button:last-child {
     margin-top: -48px;
     width: 65%;
 }
@@ -80,4 +80,4 @@ ul li:last-child {
 }
 
 
-/* This is an improved code for the simple calculator project */
+/* This is an improved code for the simple calculator project - changed the li items to a button element */
