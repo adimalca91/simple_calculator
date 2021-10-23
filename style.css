@@ -8,16 +8,17 @@ body {
     background: #7c7c7c; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover,  #7c7c7c 0%, #000000 100%); /* FF3.6-15 */
     background: -webkit-radial-gradient(center, ellipse cover,  #7c7c7c 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center,  #7c7c7c 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: radial-gradient(ellipse at center,  #7c7c7c 0%, #001f3f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .calculator {
-    background: #353535;
+    /* background: #353535; */
+    background: #001f3f;
     width: 300px;
     padding: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);     /*centering the calculator*/
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 6px 0 #a1a1a1, 0 8px 10px rgba(0, 0, 0, 0.75);
@@ -43,7 +44,8 @@ ul {
 }
 ul button {
     list-style: none;
-    background: #4e4e4e;
+    /* background: #4e4e4e; */
+    background: #08315a;
     padding: 10px;
     width: 21%;
     float: left;
