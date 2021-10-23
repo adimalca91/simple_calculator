@@ -1,5 +1,6 @@
 const $lis = document.querySelectorAll("ul button")
 
+// Adding an event listener to each node (to each button - what happens when you click it).
 $lis.forEach((node) => {
     node.addEventListener('click', function(event) {
         const value = node.innerText.trim()                 //In case there are extra spaces there then trim will take it out for us.
